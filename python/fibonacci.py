@@ -1,7 +1,12 @@
 #fibonacci
-temp = 1
+temp = 0
+temp_2 = 1
 fibonacci = 0
 
-while fibonacci < 500:
-   print (fibonacci)
-   
+limite = int(input("Digite o limite:"))
+
+while fibonacci < limite:
+   print(fibonacci)
+   fibonacci = temp + temp_2
+   temp = temp_2
+   temp_2 = fibonacci
