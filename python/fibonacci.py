@@ -6,7 +6,7 @@ fibonacci = 0
 limite = int(input("Digite o limite:"))
 
 while fibonacci < limite:
-   print(fibonacci)
+   print(fibonacci, end="/")
    fibonacci = temp + temp_2
    temp = temp_2
    temp_2 = fibonacci
