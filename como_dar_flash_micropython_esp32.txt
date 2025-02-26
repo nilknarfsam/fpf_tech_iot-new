@@ -31,4 +31,4 @@ while True:
 
 > executar programa (F5)
 
-> vai aparecer no shell do thonny "MPY: soft reboot"
+> vai aparecer no shell do thonny: "MPY: soft reboot"
