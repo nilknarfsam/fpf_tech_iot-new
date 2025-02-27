@@ -1,0 +1,1 @@
+https://newbiely.com/tutorials/esp32-micropython/esp32-micropython-ldr-module
