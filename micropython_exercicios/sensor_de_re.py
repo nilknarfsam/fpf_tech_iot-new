@@ -3,13 +3,13 @@ from machine import Pin
 from time import sleep
 
 buzzer = Pin(18, Pin.OUT)
-sensor = HCSR04(trigger_pin=21, echo_pin=19)
+sensor = HCSR04(trigger_pin=21, echo_pin=19, echo_timeout_us=10000)
 
 def toca_buzzer (time):
     buzzer.on()
-    sleep(time/2)
+    sleep(time)
     buzzer.off()
-    sleep(time/2 )
+    sleep(time)
 
 while True:
     distancia = sensor.distance_cm()
