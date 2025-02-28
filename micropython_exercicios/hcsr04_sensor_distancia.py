@@ -1,4 +1,4 @@
-from hcsr04 import HCSR04
+from micropython_exercicios.hcsr04_sensor_distancia import HCSR04
 from machine import Pin
 from time import sleep
 
