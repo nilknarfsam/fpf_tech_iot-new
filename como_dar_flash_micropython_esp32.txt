@@ -32,3 +32,5 @@ while True:
 > executar programa (F5)
 
 > vai aparecer no shell do thonny: "MPY: soft reboot"
+
+> voce pode salvar o arquivo "main.py" dentro do esp32 em Salvar como... ou Na aba View -> Files
