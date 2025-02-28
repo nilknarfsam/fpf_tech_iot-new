@@ -15,7 +15,7 @@ while True:
     distancia = sensor.distance_cm()
     print(distancia)
     
-    if distancia <= 6:
+    if 0 < distancia <= 6: #quando não tem leitura, o sensor retorna valores menores que zero
         buzzer.on()
     elif 5 < distancia <= 10:
         toca_buzzer(0.25)
@@ -25,3 +25,5 @@ while True:
         toca_buzzer(1)
     else:
         buzzer.off()
+    
+    sleep(0.1)
