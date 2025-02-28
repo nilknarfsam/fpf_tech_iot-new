@@ -1,1 +1,3 @@
 https://newbiely.com/tutorials/esp32-micropython/esp32-micropython-ldr-module
+
+https://randomnerdtutorials.com/install-upycraft-ide-windows-pc-instructions/
