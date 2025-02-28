@@ -7,21 +7,21 @@ sensor = HCSR04(trigger_pin=21, echo_pin=19)
 
 def toca_buzzer (time):
     buzzer.on()
-    sleep(time)
+    sleep(time/2)
     buzzer.off()
-    sleep(time)
+    sleep(time/2 )
 
 while True:
     distancia = sensor.distance_cm()
     print(distancia)
-
-    if distancia <= 5:
+    sleep(0.001)
+    if distancia <= 6:
         buzzer.on()
     elif 5 < distancia <= 10:
         toca_buzzer(0.25)
     elif 10 < distancia <= 25:
         toca_buzzer(0.5)
     elif 25 < distancia <= 50:
-        toca_buzzer(0.5)
+        toca_buzzer(1)
     else:
         buzzer.off()
