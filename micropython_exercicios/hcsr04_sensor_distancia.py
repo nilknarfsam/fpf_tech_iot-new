@@ -6,8 +6,6 @@ sensor = HCSR04(trigger_pin=21, echo_pin=19)
 
 led = Pin(4, Pin.OUT)
 
-
-
 while True:
     distance = sensor.distance_cm()
     print('Distance:', distance, 'cm')
