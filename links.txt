@@ -5,3 +5,5 @@ https://randomnerdtutorials.com/install-upycraft-ide-windows-pc-instructions/
 https://github.com/rsc1975/micropython-hcsr04?tab=readme-ov-file
 
 https://wokwi.com/
+
+https://www.gitkraken.com/download/windows64
