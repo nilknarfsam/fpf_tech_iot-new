@@ -14,7 +14,7 @@ def toca_buzzer (time):
 while True:
     distancia = sensor.distance_cm()
     print(distancia)
-    sleep(0.001)
+    
     if distancia <= 6:
         buzzer.on()
     elif 5 < distancia <= 10:
