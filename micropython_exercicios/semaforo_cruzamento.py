@@ -1,21 +1,12 @@
-#usando esp32
-
 from machine import Pin
 from time import sleep
-
 
 def simultaneo (led, led_fixo, time):
     led.on() 
     led_fixo.on() #led que fica fixo
     sleep(time)
     led.off()
-    
-    
-def acionar_led (led, time):
-    led.on()
-    sleep(time)
-    led.off()
-    
+       
 def pisca_led (led, time, vezes):
     for i in range(vezes):
         led.on()
@@ -47,4 +38,3 @@ while True:
     
     simultaneo(led_red, led2_yellow, 3)
     led2_yellow.value(0) 
-    
