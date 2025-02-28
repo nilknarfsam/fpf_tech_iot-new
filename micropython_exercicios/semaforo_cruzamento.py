@@ -32,4 +32,5 @@ while True:
     simultaneo(led2_green, led_red, 4)
     pisca_led(led2_green, 0.25, 6)
     simultaneo(led_red, led2_yellow, 3)
-    led2_yellow.value(0) 
+    led2_yellow.value(0)
+    simultaneo(led2_red, led2_red, 1) 

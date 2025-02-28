@@ -1,0 +1,7 @@
+https://newbiely.com/tutorials/esp32-micropython/esp32-micropython-ldr-module
+
+https://randomnerdtutorials.com/install-upycraft-ide-windows-pc-instructions/
+
+https://github.com/rsc1975/micropython-hcsr04?tab=readme-ov-file
+
+https://wokwi.com/
