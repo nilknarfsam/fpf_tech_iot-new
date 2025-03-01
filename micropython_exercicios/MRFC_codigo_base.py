@@ -18,3 +18,4 @@ while True:
             card_id = "0x%02x%02x%02x%02x" % (raw_uid[0], raw_uid[1], raw_uid[2], raw_uid[3])
    
             print(card_id)
+sleep(0.1)
