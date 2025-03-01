@@ -1,0 +1,2 @@
+Conceitos:
+> Threads -> Processos simultâneos
