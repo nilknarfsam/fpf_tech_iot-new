@@ -1,5 +1,7 @@
 #Codigo base do mrfc
 
+#PINAGEM: RST-4    SDA-5    SCK-18    MISO-19    MOSI-23
+
 from mfrc522 import MFRC522
 from machine import Pin
 from machine import SPI
