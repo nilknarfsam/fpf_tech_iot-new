@@ -5,4 +5,4 @@ Foram explorados os seguintes temas:
 - Eletrônica básica
 - Sistemas embarcados
 
-[Como dar flash do microPython no ESP32](/fpf_tech_iot/como_dar_flash_micropython_esp32.txt)
+[Como dar flash do microPython no ESP32](**/fpf_tech_iot/como_dar_flash_micropython_esp32.txt**)
