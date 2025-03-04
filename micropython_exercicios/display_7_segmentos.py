@@ -4,10 +4,10 @@ from time import sleep
 #setando os pins
 a = Pin(2, Pin.OUT)
 b = Pin(15, Pin.OUT)
-c = Pin(17, Pin.OUT)
+c= Pin(17, Pin.OUT)
 d = Pin(5, Pin.OUT)
 e = Pin(18, Pin.OUT)
-f = Pin(4, Pin.OUT)
+f= Pin(4, Pin.OUT)
 g = Pin(16, Pin.OUT)
 
 pins = [a,b,c,d,e,f,g]
@@ -32,9 +32,20 @@ def ligar_led (led, time):
     sleep(time)
     
 def numbers (num):
-    for i, seg7 in zip (pins, num):
+    for i, seg7 in zip (pins, num): #dá merge entre dois arrays
         i.value(seg7)
     
 while True:
-    numbers(num0)
-    sleep(20)
+    num_key = int(input("Escolha um numero (0-9): "))
+    
+    while 0 < num_key > 9:
+        num_key = int(input("Escolha um numero (0-9): "))
+    
+    search_num = f"num{num_key}" # pra procurar a variavel
+    
+    if search_num in globals():
+        numbers(globals()[search_num])
+    else:
+        print("Numero invalido.")
+        
+    sleep(0.1)
