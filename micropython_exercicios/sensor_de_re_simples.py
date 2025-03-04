@@ -1,6 +1,3 @@
-#CODIGO DO SENSOR DE RÉ
-
-
 from machine import Pin
 from hcsr04 import HCSR04
 from time import sleep
