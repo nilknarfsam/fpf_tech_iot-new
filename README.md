@@ -1,4 +1,4 @@
-# FPF eTech 
+# FPF eTech - Curso de Extensão IoT (fev a mar/25)
 Curso de IoT realizado pela FPF Etech entre os meses de fevereiro e março de 2025. Foram explorados os seguintes temas:
 - História do IoT
 - microPython
