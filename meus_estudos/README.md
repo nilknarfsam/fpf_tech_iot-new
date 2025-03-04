@@ -1,0 +1,1 @@
+Estudos avulsos realizados por mim.
