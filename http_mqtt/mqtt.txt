@@ -1,0 +1,14 @@
+MQTT -> Message Queuing Telemetry Transport
+
+Emissor --> Gateway --> Leitor
+
+MQTT: Publisher --> Broker --> Subscriber
+
+Broker abriga "topic", que pode ser consultado apenas uma vez. É como se fosse um arquivo numa pasta que ao ser consultado, dá lugar à outro.
+
+      Response
+SERVER <------> CLIENT
+      Payload
+
+
+Broker MQTT: https://mosquitto.org/
