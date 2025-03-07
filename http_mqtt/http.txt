@@ -1,0 +1,23 @@
+API - Application Platform Interface (backend)
+
+HTTP
+
+SERVER                                         DEVICE
+|---------|        ----- PAYLOAD ---->      |---------|
+|          |                                              |           |
+|          |         <---- RESPONSE ---     |           |
+______                                             _______
+
+
+200 OK
+500 NOT OK
+404 SERVER NOT FOUND
+400 BAD REQUEST
+
+4 MÉTODOS DE REQUISIÇÃO
+GET --> bate num endpoint, retorna o valor / retorno rápido de informações (consulta?)
+POST --> salva o que foi enviado ao payload  / device salva algo
+DELETE --> device apagar algo de dentro do server
+PUT --> editar dados 
+
+Toda conexão HTTP (geralmente) acontece via endpoint
