@@ -12,3 +12,12 @@ SERVER <------> CLIENT
 
 
 Broker MQTT: https://mosquitto.org/
+*se der erro instala o Vcredist C++ do windows
+
+> abrir mosquitto.conf
+>digitar nas últimas linhas:
+      allow_anonymous true
+      listener 1883 0.0.0.0
+> abrir MQQTX (software)
+> conectar ip no mqqtx
+> new subscription -> vai criar um testtopic
