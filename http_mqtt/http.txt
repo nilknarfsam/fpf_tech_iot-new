@@ -8,7 +8,6 @@ SERVER                                         DEVICE
 |          |         <---- RESPONSE ---     |           |
 ______                                             _______
 
-
 200 OK
 500 NOT OK
 404 SERVER NOT FOUND
@@ -21,3 +20,15 @@ DELETE --> device apagar algo de dentro do server
 PUT --> editar dados 
 
 Toda conexão HTTP (geralmente) acontece via endpoint
+
+----------------------------- 11/03 ---------------------------
+
+HTTP://
+
+API -> Application Programming Interface
+    -> Comunicação entre computadores ou programas
+    -> Dá endereço de IP 
+
+GET -> bate no endpoint e retorna um valor, que é um responde, geralmente um JSON
+
+POST -> Payload/endpoint, faz uma modificação de cadastro
