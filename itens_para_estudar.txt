@@ -1,2 +1,4 @@
 Conceitos:
 > Threads -> Processos simultâneos
+
+> tuplas
